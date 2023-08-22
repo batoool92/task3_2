@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header> <!--this div contains navbar and welcome picture-->
+        <nav class="bh_navbar_class">
+            <div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#bh_aboutUsId">About</a></li>
+                <li><a href="#bh_ourServicesId">Services</a></li>
+                <li><a href="#bh_specializationId">Specializations</a></li>
+            </div>
+            <div>
+                <li><a href="#bh_TeacherId">Teachers</a></li>
+                <li><a href="#bh_plansId">Plans</a></li>
+                <li><a href="#bh_ContactId">Contact</a></li>
+            </div>
+
+            <button id="bh_toggleId"><i class="fa-solid fa-sliders bh_toggleicon"></i></button>
+        </nav>
+
+        <div id="hero_img_id">
+            <h1 id="bh_welcome">Welcome To Online Courses</h1>
+        </div>
+    </header>
+    <!--this is about us section -->
+    <div id="bh_aboutUsId" class="bh_section">
+        <h1>About us</h1>
+        <p>Discription about the online courses and what sets them apart</p>
+    </div>
+
+    <!-- this is our Services section -->
+    <div id="bh_ourServicesId" class="bh_section">
+        <h1>Our Services</h1>
+
+        <div class="bh_CardsContainer">
+
+            <div class="bh_Card">
+                <h2>Service Title</h2>
+                <p>service discription</p>
+            </div>
+            <div class="bh_Card">
+                <h2>Service Title</h2>
+                <p>service discription</p>
+            </div>
+            <div class="bh_Card">
+                <h2>Service Title</h2>
+                <p>service discription</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Specialaization Section -->
+    <div id="bh_specializationId" class="bh_section">
+        <h1>Specializations</h1>
+
+        <div class="bh_CardsContainer">
+
+            <div class="bh_Card">
+                <h3>Specialization</h3>
+                <p>discription</p>
+            </div>
+            <div class="bh_Card">
+                <h3>Specialization </h3>
+                <p>discription</p>
+            </div>
+            <div class="bh_Card">
+                <h3>Specialization </h3>
+                <p>discription</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Teachers Section -->
+    <div id="bh_TeacherId" class="bh_section">
+        <h1>Our Teachers</h1>
+
+        <div class="bh_CardsContainer">
+
+            <div class="bh_Card">
+                <img class="bh_imgCard" src="./assets/images/teacher1.png" alt="teacher1">
+                <h2>teacher1</h2>
+                <p>discription</p>
+            </div>
+            <div class="bh_Card">
+                <img class="bh_imgCard" src="./assets/images/teacher1.png" alt="teacher2">
+                <h2>teacher2</h2>
+                <p>discription</p>
+            </div>
+            <div class="bh_Card">
+                <img class="bh_imgCard" src="./assets/images/teacher1.png" alt="teacher3">
+                <h2>teacher3</h2>
+                <p>discription</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Plans Section -->
+    <div id="bh_plansId" class="bh_section">
+        <h1>Our Plans</h1>
+        <div class="bh_CardsContainer">
+
+            <div class="bh_planCard">
+                <img class="bh_imgPlan" src="./assets/images/marketing-plan.png" alt="">
+                <h5>Plan Title</h5>
+                <ul>
+                    <li>feature1</li>
+                    <li>feature2</li>
+                    <li>feature3</li>
+                </ul>
+                <div class="bh_PlanDetails">
+                    <p>Price: $X.XX</p>
+                    <p>Duration: 3 Month</p>
+                    <p>Access to all courses</p>
+                </div>
+            </div>
+
+            <div class="bh_planCard">
+                <img class="bh_imgPlan" src="./assets/images/marketing-plan.png" alt="">
+                <h5>Plan Title</h5>
+                <ul>
+                    <li>feature1</li>
+                    <li>feature2</li>
+                    <li>feature3</li>
+                </ul>
+                <div class="bh_PlanDetails">
+                    <p>Price: $X.XX</p>
+                    <p>Duration: 3 Month</p>
+                    <p>Access to all courses</p>
+                </div>
+            </div>
+
+            <div class="bh_planCard">
+                <img class="bh_imgPlan" src="./assets/images/marketing-plan.png" alt="">
+                <h5>Plan Title</h5>
+                <ul>
+                    <li>feature1</li>
+                    <li>feature2</li>
+                    <li>feature3</li>
+                </ul>
+                <div class="bh_PlanDetails">
+                    <p>Price: $X.XX</p>
+                    <p>Duration: 3 Month</p>
+                    <p>Access to all courses</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this is Contact Us section -->
+    <div id="bh_ContactId" class="bh_section">
+        <div>
+            <h1>Contact Us</h1>
+            <form class="bh_formContainer" action="">
+                <label for="name" class="bh_labelClass">Name:</label>
+                <input type="text" id="bh_name" name="name" placeholder="Your Names">
+                <label for="email" class="bh_labelClass">Email:</label>
+                <input type="email" id="bh_email" name="email" placeholder="Email">
+                <label for="message" class="bh_labelClass">Message:</label>
+                <textarea name="message" id="bh_message" cols="30" rows="10"
+                    placeholder="Tell us your message"></textarea>
+                <input type="submit" id="bh_submitForm">
+            </form>
+
+        </div>
+        <div id="bh_contactInfo">
+            <h1>Contact Info</h1>
+            <p>Email:ContactUs@gmail.com</p>
+            <p>Phone:+963941755603</p>
+        </div>
+    </div>
+    <footer id="bh_footer">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Linkdin</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</body>
+
+</html>

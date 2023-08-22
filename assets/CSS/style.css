@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 80px;
+    /* padding: 1rem; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav div {
+    display: flex;
+    max-width: 100vw;
+    /* border: 1px solid brown; */
+}
+
+
+
+ul {
+    
+    list-style: none;
+    padding: 0 2rem 0 2rem;
+}
+
+li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: azure;
+    padding: 2rem;
+      
+}
+button#bh_toggleId {
+    display: none;  
+}
+
+/* .bh_toggleicon {
+     display: none;
+} */
+
+
+#hero_img_id {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 1; 
+    max-width: 100vw;
+    height: 100vh;
+    padding: 7rem;
+    background-image: url("./../images/lady-with-laptop.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;    
+}
+
+#bh_welcome {
+    color: azure;
+    font-size: 4rem;
+    padding-left: 5rem;
+    width: max-content;
+    /* border: 2px solid black; */
+     background-color:rgba(146, 121, 146, 0.5); 
+}
+
+#bh_aboutUsId {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    background-color: azure;  
+}
+
+.bh_section {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    color: azure;
+    padding: 5rem;
+    background-color: rgb(72, 121, 83);
+}
+
+div .bh_Card h2{
+    width: fit-content 
+}
+
+.bh_CardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid rgb(136, 15, 15); */
+}
+
+.bh_Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(129, 164, 167);
+   /* gap: 3rem; */
+    width: 12rem;
+    margin: 2rem;
+    /* border: 2px solid rgb(243, 241, 142);  */
+}
+
+#bh_TeacherId {
+    padding: 1rem;
+    /* justify-content: flex-start; */
+}
+
+#bh_specializationId {
+    padding: 1rem;
+    color: black;
+    background-color: azure;
+}
+
+#bh_ourServicesId {
+    padding: 3rem;
+  }
+
+.bh_imgCard {
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+}
+
+.bh_planCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    height: 275px;
+    width: 200px;
+    margin: 10px;
+    /* border: 2px solid rgb(175, 149, 3); */
+    background-color: rgb(206, 129, 129);
+    border-radius: 5px;
+}
+
+#bh_plansId {
+    background-color: rgb(215, 233, 233);
+    color: black;
+
+}
+
+.bh_imgPlan {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid azure;
+}
+
+ul li {
+    list-style: circle;
+    font-size: 15px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+     border: 2px solid black; 
+}
+
+.bh_PlanDetails {
+    border: 2px solid black;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(207, 193, 69);
+}
+
+a:hover {
+    color: yellow;
+}
+
+#bh_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    gap: 15px;
+    background-color: black;
+    font-size: 15px;
+    color: azure;
+}
+
+#bh_ContactId {
+    padding: 2rem;
+  
+}
+
+.bh_formContainer {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.bh_labelClass {
+    padding-top: 10px;
+    font-size: 1rem;
+    /* width: 300px; */
+}
+
+
+
+#bh_message {
+    width: 40vw;
+    height: 4rem;
+    margin-bottom: 15px;
+
+}
+
+#bh_submitForm {
+    color: azure;
+    background-color: black;
+    width: 100px;
+    font-weight: bold;
+    border: 2px solid rgb(206, 129, 129);
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 25px;
+}
+
+input:hover {
+    background-color: rgb(199, 193, 113);
+}
+
+textarea:hover {
+    background-color: rgb(199, 193, 113);
+}
+
+::placeholder {
+    color: rgb(155, 152, 155);
+}
+
+#bh_contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea:focus {
+    background-color: rgb(206, 188, 203);
+}
+
+input {
+    height: 2rem;
+}
+
+input:focus {
+    background-color: rgb(206, 188, 203);
+}
+
+div h1 {
+    font-size: 3rem;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+   
+    button#bh_toggleId {
+        display: block;
+    }
+
+     .bh_toggleicon {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    nav div li {
+        display: none;
+
+    }
+}
